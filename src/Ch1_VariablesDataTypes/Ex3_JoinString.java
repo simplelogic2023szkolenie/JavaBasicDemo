@@ -2,7 +2,11 @@ package Ch1_VariablesDataTypes;
 
 public class Ex3_JoinString {
     public static void main(String[] args) {
+        String dog = "burek";
+        String cat = "filemon";
 
+        int ageSum = 10;
+        System.out.println("Pies "+dog+" i kot "+cat+" mają razem "+ageSum + " lat");
     }
 }
 
