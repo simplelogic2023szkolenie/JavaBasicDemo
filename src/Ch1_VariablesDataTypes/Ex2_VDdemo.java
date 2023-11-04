@@ -9,6 +9,7 @@ public class Ex2_VDdemo {
         boolean isEarthFlat = false;
 
         String name = "Mateusz";
+        String lastName = "Tadla";
 
         System.out.println(a);
         System.out.println(b);
@@ -16,6 +17,12 @@ public class Ex2_VDdemo {
         System.out.println(isEarthFlat);
         System.out.println(name);
         System.out.println(someChar);
+
+        System.out.println(name + " Tadla");
+        System.out.println(name +" "+ lastName + isEarthFlat);
+
+
+
     }
 
     /*
