@@ -6,7 +6,7 @@ public class Ex3_JoinString {
         String cat = "filemon";
 
         int ageSum = 10;
-        System.out.println("Pies "+dog+" i kot "+cat+" mają razem "+ageSum + " lat");
+        System.out.println("Pies " + dog + " i kot " + cat + " mają razem " + ageSum + " lat");
     }
 }
 
