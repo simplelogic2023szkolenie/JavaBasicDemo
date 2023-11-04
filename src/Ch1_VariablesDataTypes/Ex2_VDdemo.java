@@ -1,8 +1,21 @@
 package Ch1_VariablesDataTypes;
 
 public class Ex2_VDdemo {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        int a = 10;
+        double b = 23.24;
+        char someChar = 'A';
+        boolean isEarthFlat = false;
+
+        String name = "Mateusz";
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(someChar);
+        System.out.println(isEarthFlat);
+        System.out.println(name);
+        System.out.println(someChar);
     }
 
     /*
