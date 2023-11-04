@@ -2,7 +2,7 @@ package Ch2_ControlInstructions;
 
 import java.util.Scanner;
 
-public class Ex2_If {
+public class Ex2_If_ver2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,13 +14,15 @@ public class Ex2_If {
 
         if (a > b) {
             System.out.println("a > b");
-        } else if (a < b) {
+        }
+
+        if (a < b) {
             System.out.println("a<b");
-        } else {
+        }
+
+        if (a == b) {
             System.out.println("a==b");
         }
-        System.out.println("koniec programu");
-
     }
 }
 
