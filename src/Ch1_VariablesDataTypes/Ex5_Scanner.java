@@ -1,7 +1,16 @@
 package Ch1_VariablesDataTypes;
 
+import java.util.Scanner;
+
 public class Ex5_Scanner {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Witaj, jak masz na imie?");
+
+        String name = scanner.nextLine();
+
+        System.out.println("witaj " + name);
 
     }
 }
