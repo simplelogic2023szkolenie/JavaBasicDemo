@@ -27,5 +27,7 @@ public class Ex6_MathematicOperators {
 
         double result = a/b;
         System.out.println(result);
+
+
     }
 }
