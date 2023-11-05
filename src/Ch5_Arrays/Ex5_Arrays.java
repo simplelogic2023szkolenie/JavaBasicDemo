@@ -1,9 +1,20 @@
 package Ch5_Arrays;
 
+import java.util.Scanner;
+
 public class Ex5_Arrays {
     public static void main(String[] args) {
-        int n = 10;
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
         int[] tab = new int[n];
+
+        for (int i = 0; i < tab.length; i++) {
+            tab[i] = i*i;
+        }
+
+        for (int i = 0; i < tab.length; i++) {
+            System.out.println("liczba stojaca na indeksie " + i + " to: " + tab[i]);;
+        }
     }
 }
 
