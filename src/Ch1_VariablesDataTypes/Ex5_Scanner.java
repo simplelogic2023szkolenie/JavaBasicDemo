@@ -1,5 +1,6 @@
 package Ch1_VariablesDataTypes;
 
+
 import java.util.Scanner;
 
 public class Ex5_Scanner {

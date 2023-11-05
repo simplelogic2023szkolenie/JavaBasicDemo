@@ -16,7 +16,7 @@ public class Ex3_LocalVariable {
         }
         // poniżysz kod powodałby bład poniewaz name jest zmienną lokalną
         // w bloku if - i tylko tam moze być użyta, bo w nim została zadeklarowana
-        // System.out.println("witaj " + name);
+//         System.out.println("witaj " + name);
 
         System.out.println("koniec programu");
     }
