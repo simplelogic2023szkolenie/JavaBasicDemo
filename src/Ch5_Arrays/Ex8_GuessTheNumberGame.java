@@ -7,7 +7,7 @@ public class Ex8_GuessTheNumberGame {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numberToGuess = new Random().nextInt(10);
+        int numberToGuess = new Random().nextInt(100);
         int maxAttempts = 5;
 
         System.out.println("Zgadnij numer od 0 do 99, masz " + maxAttempts + " prob: ");
