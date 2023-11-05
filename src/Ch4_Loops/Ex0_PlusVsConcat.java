@@ -2,6 +2,8 @@ package Ch4_Loops;
 
 public class Ex0_PlusVsConcat {
     public static void main(String[] args) {
+        // to nie jest ćwiczenia i tylko info dla chętnych, można pominąć przy nauce
+
         String text = "World";
         int number = 10;
         System.out.println(text+number);
