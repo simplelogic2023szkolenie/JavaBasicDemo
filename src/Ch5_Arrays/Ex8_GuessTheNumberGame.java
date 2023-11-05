@@ -1,7 +1,40 @@
 package Ch5_Arrays;
+
 import java.util.Random;
+import java.util.Scanner;
+
 public class Ex8_GuessTheNumberGame {
-    int numberToGuess = new Random().nextInt(100);
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int numberToGuess = new Random().nextInt(10);
+        int maxAttempts = 5;
+
+        System.out.println("Zgadnij numer od 0 do 99, masz " + maxAttempts + " prob: ");
+
+        for (int i = 1; i <= maxAttempts; i++) {
+            int userGuess = scanner.nextInt();
+
+            if (userGuess == numberToGuess) {
+                System.out.println("Super udało Ci się zgadnąć!");
+                break;
+            }
+
+            if (i == maxAttempts) {
+                System.out.println("Koniec gry, odpowiedz to: " + numberToGuess);
+                break;
+            }
+
+            if (userGuess > numberToGuess) {
+                System.out.println("Twoja liczba jest WIEKSZA niz ta do zgadniecia");
+            } else {
+                System.out.println("Twoja liczba jest MNIEJSZA niz ta do zgadniecia");
+            }
+
+            System.out.println("pozostala ilosc prob to " + (maxAttempts - i));
+        }
+
+    }
 }
 
 
@@ -11,7 +44,7 @@ public class Ex8_GuessTheNumberGame {
     int numberToGuess = new Random().nextInt(100);
 }
 
-Powyższy kod spowoduje przypisanie do zmiennej 'numberToGuess' losowo wybranej liczby z zakresu 0-99. 
+Powyższy kod spowoduje przypisanie do zmiennej 'numberToGuess' losowo wybranej liczby z zakresu 0-99.
 
 Gra w zgadywanie polegająca na tym, że program losuje liczbę, a użytkownik próbuje ją odgadnąć.
 
