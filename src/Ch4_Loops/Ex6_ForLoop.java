@@ -2,6 +2,7 @@ package Ch4_Loops;
 
 public class Ex6_ForLoop {
     public static void main(String[] args) {
+        // rozwiazanie Zadanie 2
         int sum = 0;
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 && i % 4 == 0) {
@@ -9,6 +10,14 @@ public class Ex6_ForLoop {
             }
         }
         System.out.println("sum: " + sum);
+
+        // rozwiazanie Zadanie 1
+        System.out.println("Liczby podzielne przez 3:");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0) {
+                System.out.print(i+ " ");
+            }
+        }
     }
 }
 
