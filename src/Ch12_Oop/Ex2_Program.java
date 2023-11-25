@@ -1,6 +1,15 @@
 package Ch12_Oop;
 
 public class Ex2_Program {
+    public static void main(String[] args) {
+        Ex2_Employee employee = new Ex2_Employee();
+        employee.firstName = "Mateusz";
+        employee.lastName = "Tadla";
+        employee.age = 33;
+
+        employee.printEmployeeInfo();
+        System.out.println(employee.getEmployeeInfo());
+    }
 }
 /*
 Napisz klasę Employee, która przechowuje trzy pola:
