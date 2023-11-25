@@ -1,19 +1,20 @@
 package Ch6_Methods;
 
 public class Ex2_MethodsPractice1 {
-    public static void sayHello(){
+    public static void sayHello() {
         System.out.println("Im inside of method sayHello, Hello!!");
     }
+
     public static void main(String[] args) {
         sayWelcome();
         sayHello();
     }
 
-    public static void sayWelcome(){
+    public static void sayWelcome() {
         System.out.println("Im inside of sayWelcome method, Welcome!!");
     }
 
-    public static void sayGoodbye(){
+    public static void sayGoodbye() {
         System.out.println("Bye!");
     }
 }

@@ -18,6 +18,5 @@ public class Ex1_IfDemo {
         System.out.println("koniec programu");
 
 
-
     }
 }

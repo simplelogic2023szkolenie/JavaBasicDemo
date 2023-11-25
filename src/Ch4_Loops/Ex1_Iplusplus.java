@@ -8,7 +8,7 @@ public class Ex1_Iplusplus {
         int i = scanner.nextInt();
         System.out.println(i);
 
-        i = i+1;
+        i = i + 1;
         System.out.println(i);
 
         i += 1;

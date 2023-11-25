@@ -3,20 +3,20 @@ package Ch9_MethodFromOtherClass;
 import java.util.Scanner;
 
 public class Ex1_UserInputHelper {
-    public static int getNumberFromUser(){
+    public static int getNumberFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj liczbe");
         int number = scanner.nextInt();
         return number;
     }
 
-    public static String getTextFromUser(){
+    public static String getTextFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj tekst");
         return scanner.nextLine();
     }
 
-    public static String getOptionFromUser(){
+    public static String getOptionFromUser() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Wybierz opcje");
         System.out.println("- add");

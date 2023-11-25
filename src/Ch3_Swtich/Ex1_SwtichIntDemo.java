@@ -1,10 +1,8 @@
 package Ch3_Swtich;
 
-import java.util.Scanner;
-
 public class Ex1_SwtichIntDemo {
     public static void main(String[] args) {
-        int number =1; // na potrzeby testowania mozna zmieniać te wartoci na inne
+        int number = 1; // na potrzeby testowania mozna zmieniać te wartoci na inne
 
         switch (number) {
             case 1:

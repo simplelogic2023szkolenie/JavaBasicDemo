@@ -36,7 +36,7 @@ public class Ex1_MenuDemo {
         return scanner.nextInt();
     }
 
-    public static void printMenu(){
+    public static void printMenu() {
         System.out.println("Opcje programu:");
         System.out.println("1 - xxxxx");
         System.out.println("2 - yyyyy");

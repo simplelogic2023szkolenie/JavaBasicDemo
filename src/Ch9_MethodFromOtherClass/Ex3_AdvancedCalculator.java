@@ -2,7 +2,7 @@ package Ch9_MethodFromOtherClass;
 
 import Ch7_MethodsWithParameters.Ex4_SimpleCalculator;
 
-public class  Ex3_AdvancedCalculator {
+public class Ex3_AdvancedCalculator {
     public static void main(String[] args) {
         int a = Ex1_UserInputHelper.getNumberFromUser();
         int b = Ex1_UserInputHelper.getNumberFromUser();
@@ -10,7 +10,7 @@ public class  Ex3_AdvancedCalculator {
 
         switch (selectedOption) {
             case "add":
-                System.out.println("Wynik dodawania " + a + "+" + b + "=" + Ex4_SimpleCalculator.add(a,b));
+                System.out.println("Wynik dodawania " + a + "+" + b + "=" + Ex4_SimpleCalculator.add(a, b));
                 break;
             case "subtract":
                 System.out.println("Wynik odejmowania " + a + "-" + b + "=" + Ex4_SimpleCalculator.subtract(a, b));

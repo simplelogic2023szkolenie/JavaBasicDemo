@@ -7,8 +7,8 @@ public class Ex1_Program {
         ford.color = "blue";
 
         Ex1_Car audi = new Ex1_Car();
-        audi.color= "red";
-        audi.horsePower= 200;
+        audi.color = "red";
+        audi.horsePower = 200;
 
         System.out.println("ford:");
         System.out.println(ford.horsePower);

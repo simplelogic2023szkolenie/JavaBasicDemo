@@ -2,9 +2,9 @@ package Ch10_MethodOverloading;
 
 public class Ex1_MethodOverloading {
     public static void main(String[] args) {
-        add(5,3);
-        add(5,3,6);
-        add(5,"123");
+        add(5, 3);
+        add(5, 3, 6);
+        add(5, "123");
     }
 
     public static int add(int a, int b) {

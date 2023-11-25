@@ -5,10 +5,10 @@ public class Ex7_MOexercise {
         int a = 10;
         int b = 10;
 
-        int sum = a+b;
-        int diff = a-b;
-        int multiplication = a*b;
-        int division = a/b;
+        int sum = a + b;
+        int diff = a - b;
+        int multiplication = a * b;
+        int division = a / b;
 
         System.out.println("wynik dodawania " + sum);
         System.out.println("wynik odejmowania " + diff);

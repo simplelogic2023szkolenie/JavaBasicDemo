@@ -2,6 +2,7 @@ package Ch8_ClassVariable;
 
 public class Ex2_ClassVariableDemo {
     static int numberInClass;
+
     public static void main(String[] args) {
         int number = 15;
         numberInClass = 5;

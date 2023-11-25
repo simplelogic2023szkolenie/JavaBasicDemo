@@ -5,13 +5,13 @@ public class Ex8_WhileCombinations {
         int i = 0;
 
         // ta petna nie wykona się ani razu
-        while (i>10){
+        while (i > 10) {
             System.out.println(i);
             i++;
         }
 
         // a tutaj w nieskończoność
-        while (true){
+        while (true) {
             System.out.println("hej!");
         }
     }

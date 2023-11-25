@@ -6,7 +6,7 @@ public class Ex0_PlusVsConcat {
 
         String text = "World";
         int number = 10;
-        System.out.println(text+number);
+        System.out.println(text + number);
 
         // poniższe zakomentowane ponieważ byłby błąd kompilacji
 //        System.out.println(text.concat(number));

@@ -19,8 +19,7 @@ public class Ex2_VDdemo {
         System.out.println(someChar);
 
         System.out.println(name + " Tadla");
-        System.out.println(name +" "+ lastName + isEarthFlat);
-
+        System.out.println(name + " " + lastName + isEarthFlat);
 
 
     }

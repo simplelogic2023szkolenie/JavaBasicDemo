@@ -8,7 +8,7 @@ public class Ex1_ExZeroDemo {
 
         //podanie 0 wyrzuci wyjatek
         int b = scanner.nextInt();
-        int a = 2/b;
+        int a = 2 / b;
         System.out.println(a);
         System.out.println("koniec programu, do zobaczenia");
     }

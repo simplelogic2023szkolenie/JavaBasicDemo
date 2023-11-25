@@ -9,7 +9,7 @@ public class Ex3_ReturnIntDemo {
         System.out.println("END");
     }
 
-    public static int shouldReturnSomeInt(){
+    public static int shouldReturnSomeInt() {
         System.out.println("im inside shouldReturnSomeInt method");
         return 15;
     }

@@ -2,10 +2,10 @@ package Ch7_MethodsWithParameters;
 
 public class Ex4_SimpleCalculator {
     public static void main(String[] args) {
-        System.out.println(add(2,5));
-        System.out.println(subtract(10,2));
-        System.out.println(divide(10,2));
-        System.out.println(multiply(2,5));
+        System.out.println(add(2, 5));
+        System.out.println(subtract(10, 2));
+        System.out.println(divide(10, 2));
+        System.out.println(multiply(2, 5));
     }
 
     public static int add(int a, int b) {

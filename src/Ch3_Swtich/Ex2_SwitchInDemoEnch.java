@@ -2,7 +2,7 @@ package Ch3_Swtich;
 
 public class Ex2_SwitchInDemoEnch {
     public static void main(String[] args) {
-        int number =1; // na potrzeby testowania mozna zmieniać te wartoci na inne
+        int number = 1; // na potrzeby testowania mozna zmieniać te wartoci na inne
 
         switch (number) {
             case 1 -> System.out.println("wartość to 1");

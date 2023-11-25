@@ -9,7 +9,7 @@ public class Ex7_MethodsWithScannerPractice {
         System.out.println("tekst podany przez usera to: " + getNumberTextUser());
     }
 
-    public static int getNumberFromUser(){
+    public static int getNumberFromUser() {
         Scanner scanner = new Scanner(System.in);
         printGetNumberMsg();
         // najpierw przypisuje wartosć do zmiennej,
@@ -18,7 +18,7 @@ public class Ex7_MethodsWithScannerPractice {
         return number;
     }
 
-    public static String getNumberTextUser(){
+    public static String getNumberTextUser() {
         Scanner scanner = new Scanner(System.in);
         printGetTextMsg();
         // tutaj od razu zwracamy to co wpisał user
@@ -26,11 +26,11 @@ public class Ex7_MethodsWithScannerPractice {
         return scanner.nextLine();
     }
 
-    public static void printGetNumberMsg(){
+    public static void printGetNumberMsg() {
         System.out.println("podaj liczbę");
     }
 
-    public static void printGetTextMsg(){
+    public static void printGetTextMsg() {
         System.out.println("podaj tekst");
     }
 }

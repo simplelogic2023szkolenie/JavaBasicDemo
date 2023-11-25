@@ -9,11 +9,12 @@ public class Ex5_Arrays {
         int[] tab = new int[n];
 
         for (int i = 0; i < tab.length; i++) {
-            tab[i] = i*i;
+            tab[i] = i * i;
         }
 
         for (int i = 0; i < tab.length; i++) {
-            System.out.println("liczba stojaca na indeksie " + i + " to: " + tab[i]);;
+            System.out.println("liczba stojaca na indeksie " + i + " to: " + tab[i]);
+            ;
         }
     }
 }
