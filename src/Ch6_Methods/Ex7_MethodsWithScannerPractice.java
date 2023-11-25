@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Ex7_MethodsWithScannerPractice {
     public static void main(String[] args) {
         int number = getNumberFromUser();
-        System.out.println(number);
-        System.out.println(getNumberTextUser());
+        System.out.println("liczba podana przez usera to: " + number);
+        System.out.println("tekst podany przez usera to: " + getNumberTextUser());
     }
 
     public static int getNumberFromUser(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("podaj liczbę");
+        printGetNumberMsg();
         // najpierw przypisuje wartosć do zmiennej,
         int number = scanner.nextInt();
         // a potem zwacamy wartość zmiennej
@@ -20,10 +20,18 @@ public class Ex7_MethodsWithScannerPractice {
 
     public static String getNumberTextUser(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("podaj tekst");
+        printGetTextMsg();
         // tutaj od razu zwracamy to co wpisał user
         // bez wcześniejszego zapisywania do zmiennej
         return scanner.nextLine();
+    }
+
+    public static void printGetNumberMsg(){
+        System.out.println("podaj liczbę");
+    }
+
+    public static void printGetTextMsg(){
+        System.out.println("podaj tekst");
     }
 }
 
