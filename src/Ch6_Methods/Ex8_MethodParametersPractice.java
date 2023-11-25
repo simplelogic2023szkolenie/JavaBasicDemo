@@ -7,8 +7,8 @@ public class Ex8_MethodParametersPractice {
 }
 
 
-// stworz metode ktora przyjmue parametr int
-// powinna ona drukowac czy liczba jest parzysta czy nieparzysta (void -> metoda nic nie zwraca)
+// stworz metode ktora przyjmue parametr int (void -> metoda nic nie zwraca)
+// powinna ona drukowac czy liczba jest parzysta czy nieparzysta i wydrukować tą liczbę
 
 // w metodzie main, pobierz od usera liczbę
 // przekaz ją do metdy drukującej info o parzystości
