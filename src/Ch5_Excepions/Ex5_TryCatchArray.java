@@ -16,6 +16,7 @@ public class Ex5_TryCatchArray {
         }
         System.out.println("THE END");
     }
+
 }
 
 /*
