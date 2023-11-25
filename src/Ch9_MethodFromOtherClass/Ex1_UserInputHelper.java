@@ -2,7 +2,7 @@ package Ch9_MethodFromOtherClass;
 
 import java.util.Scanner;
 
-public class Ex1_UserInputHandler {
+public class Ex1_UserInputHelper {
     public static int getNumberFromUser(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj liczbe");
@@ -10,13 +10,13 @@ public class Ex1_UserInputHandler {
         return number;
     }
 
-    public static String getNumberTextUser(){
+    public static String getTextFromUser(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("podaj tekst");
         return scanner.nextLine();
     }
 
-    public static String getOptionTextUser(){
+    public static String getOptionFromUser(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Wybierz opcje");
         System.out.println("- add");

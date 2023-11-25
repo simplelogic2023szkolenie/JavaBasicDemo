@@ -4,9 +4,9 @@ import Ch7_MethodsWithParameters.Ex4_SimpleCalculator;
 
 public class  Ex3_AdvancedCalculator {
     public static void main(String[] args) {
-        int a = Ex1_UserInputHandler.getNumberFromUser();
-        int b = Ex1_UserInputHandler.getNumberFromUser();
-        String selectedOption = Ex1_UserInputHandler.getOptionTextUser();
+        int a = Ex1_UserInputHelper.getNumberFromUser();
+        int b = Ex1_UserInputHelper.getNumberFromUser();
+        String selectedOption = Ex1_UserInputHelper.getOptionFromUser();
 
         switch (selectedOption) {
             case "add":

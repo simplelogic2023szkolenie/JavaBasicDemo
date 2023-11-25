@@ -2,9 +2,17 @@ package Ch12_Oop;
 
 public class Ex4_Program {
     public static void main(String[] args) {
+        Ex4_Animal cat = new Ex4_Animal();
+        cat.setValues("filemon", 10);
 
+        Ex4_Animal dog = new Ex4_Animal();
+        dog.setValues("burek", 15);
+
+        cat.displayInfo();
+        dog.displayInfo();
     }
 }
+
 /*
 Zadanie: Prosta Klasa Zwierzę
 
