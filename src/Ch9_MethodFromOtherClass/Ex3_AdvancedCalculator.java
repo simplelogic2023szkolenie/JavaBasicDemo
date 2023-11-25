@@ -1,7 +1,29 @@
 package Ch9_MethodFromOtherClass;
 
-public class Ex3_AdvancedCalculator {
+import Ch7_MethodsWithParameters.Ex4_SimpleCalculator;
+
+public class  Ex3_AdvancedCalculator {
     public static void main(String[] args) {
+        int a = Ex1_UserInputHandler.getNumberFromUser();
+        int b = Ex1_UserInputHandler.getNumberFromUser();
+        String selectedOption = Ex1_UserInputHandler.getOptionTextUser();
+
+        switch (selectedOption) {
+            case "add":
+                System.out.println("Wynik dodawania " + a + "+" + b + "=" + Ex4_SimpleCalculator.add(a,b));
+                break;
+            case "subtract":
+                System.out.println("Wynik odejmowania " + a + "-" + b + "=" + Ex4_SimpleCalculator.subtract(a, b));
+                break;
+            case "divide":
+                System.out.println("Wynik dzielenia " + a + "/" + b + "=" + Ex4_SimpleCalculator.divide(a, b));
+                break;
+            case "multiply":
+                System.out.println("Wynik mnozenia " + a + "*" + b + "=" + Ex4_SimpleCalculator.multiply(a, b));
+                break;
+            default:
+                System.out.println("Niestety wybrales opcje spoza zakresu: " + selectedOption);
+        }
 
     }
 }
@@ -19,7 +41,9 @@ public class Ex3_AdvancedCalculator {
 
 nastęnie nadal w metodzie main:
 - zrób switch(oparation) który obsłuży przypadki:
-	case "add"
+	case "add":
+	        int result = SimpleCalc.add(a,b)
+	        sout(result)
 	case "subtract"
 	case "divide"
 	case "multiply"
