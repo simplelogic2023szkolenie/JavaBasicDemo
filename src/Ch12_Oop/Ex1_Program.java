@@ -1,12 +1,12 @@
 package Ch12_Oop;
 
-public class MyFirstOopProgram {
+public class Ex1_Program {
     public static void main(String[] args) {
-        Car ford = new Car();
+        Ex1_Car ford = new Ex1_Car();
         ford.horsePower = 120;
         ford.color = "blue";
 
-        Car audi = new Car();
+        Ex1_Car audi = new Ex1_Car();
         audi.color= "red";
         audi.horsePower= 200;
 
