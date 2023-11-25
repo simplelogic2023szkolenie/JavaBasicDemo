@@ -1,6 +1,6 @@
 package Ch6_Methods;
 
-public class Ex8_MethodsParametersWithMethod {
+public class Ex9_MethodsParametersWithMethod {
     public static void main(String[] args) {
 //        int x = add(1,3);
 //        int y = add(44,5);
