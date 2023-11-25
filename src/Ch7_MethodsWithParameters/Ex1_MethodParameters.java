@@ -1,6 +1,6 @@
-package Ch6_Methods;
+package Ch7_MethodsWithParameters;
 
-public class Ex8_MethodParameters {
+public class Ex1_MethodParameters {
     public static void main(String[] args) {
         int a = 10;
         int x = 15;

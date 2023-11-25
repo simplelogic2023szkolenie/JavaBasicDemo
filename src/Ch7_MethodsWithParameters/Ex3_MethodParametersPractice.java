@@ -1,8 +1,8 @@
-package Ch6_Methods;
+package Ch7_MethodsWithParameters;
 
 import java.util.Scanner;
 
-public class Ex10_MethodParametersPractice {
+public class Ex3_MethodParametersPractice {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         isEven(scanner.nextInt());

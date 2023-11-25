@@ -1,6 +1,6 @@
-package Ch6_Methods;
+package Ch7_MethodsWithParameters;
 
-public class Ex11_SimpleCalculator {
+public class Ex4_SimpleCalculator {
     public static void main(String[] args) {
         System.out.println(add(2,5));
         System.out.println(subtract(10,2));

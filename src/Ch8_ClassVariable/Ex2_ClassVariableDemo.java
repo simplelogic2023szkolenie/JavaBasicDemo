@@ -1,6 +1,6 @@
-package Ch7_CounterPractice;
+package Ch8_ClassVariable;
 
-public class Ex2_ClassVariable {
+public class Ex2_ClassVariableDemo {
     static int numberInClass;
     public static void main(String[] args) {
         int number = 15;

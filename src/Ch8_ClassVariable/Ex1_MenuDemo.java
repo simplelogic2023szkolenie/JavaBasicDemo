@@ -1,4 +1,4 @@
-package Ch7_CounterPractice;
+package Ch8_ClassVariable;
 
 import java.util.Scanner;
 
