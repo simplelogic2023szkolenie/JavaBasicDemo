@@ -1,4 +1,4 @@
-package Ch5_Excepions;
+package Ch05_Excepions;
 
 public class Ex5_TryCatchArray {
     public static void main(String[] args) {

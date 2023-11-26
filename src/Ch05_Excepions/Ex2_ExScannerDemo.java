@@ -1,4 +1,4 @@
-package Ch5_Excepions;
+package Ch05_Excepions;
 
 import java.util.Scanner;
 
