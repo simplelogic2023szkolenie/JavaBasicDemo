@@ -15,11 +15,17 @@ public class Ex6_SortBook {
         library.add(new Ex5_Book("xxx", "x", 1900));
 
 
+        System.out.println("bez sortowania");
         System.out.println(library);
 
-        Collections.sort(library, (o1, o2) -> Integer.compare(o1.yearOfPublication, o2.yearOfPublication));
-//        Collections.sort(library, Comparator.comparingInt(((Ex5_Book)b)->b.yearOfPublication)
-//                .thenComparing(b->b.ti));
+        System.out.println("\nsortowanie po latach");
+        Collections.sort(library, Comparator.comparingInt(o -> o.yearOfPublication));
+        System.out.println(library);
+
+
+        System.out.println("\nsortowanie po latach, a nastepnie po title");
+        Collections.sort(library, Comparator.comparingInt((Ex5_Book b) -> b.yearOfPublication)
+                .thenComparing(b -> b.title));
         System.out.println(library);
 
     }

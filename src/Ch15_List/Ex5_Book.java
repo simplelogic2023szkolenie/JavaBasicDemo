@@ -13,10 +13,6 @@ public class Ex5_Book {
 
     @Override
     public String toString() {
-        return "{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", year=" + yearOfPublication +
-                '}';
+        return "\n{t: '" + title + "', a: '" + author + "', y: '" + yearOfPublication + "'}";
     }
 }
