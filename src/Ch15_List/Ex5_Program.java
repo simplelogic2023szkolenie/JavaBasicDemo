@@ -19,9 +19,8 @@ public class Ex5_Program {
         // tutaj opcja dodania książki do razu do listy, bez wcześniego zapiswania do zmiennej
         library.addBook(new Ex5_Book("Dziady", "Adam Mickiewicz", 1822));
 
-//        library.printBooksAfterDate(1930);
+        library.printBooksAfterDate(1930);
 
-        library.printAndSort();
     }
 }
 /**

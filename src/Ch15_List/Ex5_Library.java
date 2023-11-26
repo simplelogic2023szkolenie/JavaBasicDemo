@@ -23,8 +23,4 @@ public class Ex5_Library {
         }
     }
 
-    public void printAndSort(){
-
-    }
-
 }
