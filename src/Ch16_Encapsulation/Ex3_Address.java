@@ -1,7 +1,7 @@
 package Ch16_Encapsulation;
 
-public class Address {
-    public Address(String street, int number) {
+public class Ex3_Address {
+    public Ex3_Address(String street, int number) {
         this.street = street;
         this.number = number;
     }

@@ -1,7 +1,7 @@
 package Ch16_Encapsulation;
 
-public class Person {
-    public Person(String firstName, String lastName, Address address) {
+public class Ex3_Person {
+    public Ex3_Person(String firstName, String lastName, Ex3_Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
@@ -9,7 +9,7 @@ public class Person {
 
     private String firstName;
     private String lastName;
-    private Address address;
+    private Ex3_Address address;
 
     public String getFirstName() {
         return firstName;
@@ -19,7 +19,7 @@ public class Person {
         return lastName;
     }
 
-    public Address getAddress() {
+    public Ex3_Address getAddress() {
         return address;
     }
 }
