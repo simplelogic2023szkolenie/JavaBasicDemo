@@ -1,8 +1,12 @@
-package Ch12_Oop;
+package Ch13_OopConstructors;
 
 public class Ex6_Program {
     public static void main(String[] args) {
+        Ex6_Browser chrome = new Ex6_Browser("google", "chrome", 117);
+        Ex6_Browser edge = new Ex6_Browser("ms", "edge", 120);
 
+        System.out.println(chrome.getBroweserData());
+        System.out.println(edge.getBroweserData());
     }
 }
 
