@@ -1,10 +1,10 @@
 package Ch14_ObjectAsField;
 
-public class Engine {
+public class Ex2_Engine {
     public int horsePower;
     public int maxSpeed;
 
-    public Engine(int horsePower, int maxSpeed) {
+    public Ex2_Engine(int horsePower, int maxSpeed) {
         this.horsePower = horsePower;
         this.maxSpeed = maxSpeed;
     }

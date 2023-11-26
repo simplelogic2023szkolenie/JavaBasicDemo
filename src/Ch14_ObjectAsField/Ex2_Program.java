@@ -2,7 +2,25 @@ package Ch14_ObjectAsField;
 
 public class Ex2_Program {
     public static void main(String[] args) {
+        Ex2_Engine dieselEngine = new Ex2_Engine(130,200);
+        Ex2_Engine petrolEngine = new Ex2_Engine(180, 240);
 
+        Ex2_Vehicle toyota = new Ex2_Vehicle("toyota", 2020, dieselEngine);
+        Ex2_Vehicle honda = new Ex2_Vehicle("Honda", 2018, petrolEngine);
+        Ex2_Vehicle bmw = new Ex2_Vehicle("BMW", 2021, dieselEngine);
+
+        System.out.println(toyota.getVehicleData());
+        System.out.println(honda.getVehicleData());
+        System.out.println(bmw.getVehicleData());
+
+        dieselEngine.horsePower=400;
+        dieselEngine.maxSpeed=320;
+
+        System.out.println("\nPo zmianie danych " +
+                "silnika diesel, uzywanego w 2 obietkach klasy vehicle");
+        System.out.println(toyota.getVehicleData());
+        System.out.println(honda.getVehicleData());
+        System.out.println(bmw.getVehicleData());
     }
 }
 
