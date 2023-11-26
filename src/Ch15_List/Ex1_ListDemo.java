@@ -27,7 +27,7 @@ public class Ex1_ListDemo {
         System.out.println(names);
 
         // mozna też foreach
-        for(String name: names){
+        for (String name : names) {
             System.out.println(">> " + name + " << ");
         }
     }

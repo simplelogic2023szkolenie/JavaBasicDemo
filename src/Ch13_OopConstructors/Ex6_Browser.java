@@ -11,7 +11,7 @@ public class Ex6_Browser {
     public String name;
     public int version;
 
-    public String getBroweserData(){
+    public String getBroweserData() {
         return vendor + " " + name + " " + version;
     }
 }

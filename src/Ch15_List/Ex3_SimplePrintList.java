@@ -15,7 +15,7 @@ public class Ex3_SimplePrintList {
 
 
         System.out.println("opcja z for each");
-        for (Ex3_Person person : people){
+        for (Ex3_Person person : people) {
             System.out.println(person.getPersonData());
         }
 

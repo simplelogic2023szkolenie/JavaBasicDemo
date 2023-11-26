@@ -9,7 +9,7 @@ public class Ex3_Person {
         this.age = age;
     }
 
-    public String getPersonData(){
+    public String getPersonData() {
         return name + " " + age;
     }
 }

@@ -18,7 +18,6 @@ public class Ex2_CustomTypeList {
         System.out.println(listOfObjectsThat_HAVE_ToString);
 
 
-
         List<Ex2_PersonMissingToString> listOfObjectsThat_DO_NOT_HAVE_toString = new ArrayList<>();
 
         Ex2_PersonMissingToString kasia = new Ex2_PersonMissingToString("kasia", 20);

@@ -8,8 +8,9 @@ public class Ex2_Engine {
         this.horsePower = horsePower;
         this.maxSpeed = maxSpeed;
     }
-    public String getEngineData(){
-        return "horsePower: " +horsePower + " maxSpeed: " + maxSpeed;
+
+    public String getEngineData() {
+        return "horsePower: " + horsePower + " maxSpeed: " + maxSpeed;
     }
 
 }
