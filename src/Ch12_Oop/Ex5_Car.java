@@ -1,6 +1,11 @@
 package Ch12_Oop;
 
-public class Ex1_Car {
+public class Ex5_Car {
+
+    public Ex5_Car(int horsePower, String color) {
+        this.horsePower = horsePower;
+        this.color = color;
+    }
 
     public int horsePower;
     public String color;
