@@ -13,10 +13,10 @@ public class Ex5_Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "{" +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
-                ", yearOfPublication=" + yearOfPublication +
+                ", year=" + yearOfPublication +
                 '}';
     }
 }
