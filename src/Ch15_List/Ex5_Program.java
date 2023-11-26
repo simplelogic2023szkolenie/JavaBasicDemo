@@ -19,7 +19,7 @@ public class Ex5_Program {
  *    - utwórz metodę która drukuje informacje o danej książce np. printBookInfo()
  *
  * 2. Stwórz Klasę 'Library':
- *    - Zdefiniuj w niej pole, które będzie listą książek (np. 'public List<Book> booksCollection = new ArrayList<>();').
+ *    - Zdefiniuj w niej pole, które będzie listą książek (np. 'List<Book> booksCollection = new ArrayList<>();').
  *    tutaj nie potrzebuje konstruktoea
  *
  *    - Utwórz metodę do dodawania nowej książki do zbioru (np. 'addBook(Book book)')
