@@ -26,6 +26,8 @@ stworz klase Engine:
  - stwórz 2 obiekty klasy Engine
  - stwórz 3 obiekty klasy Vehicle -> użyj obiektów klasy Enine do konstroka Engine
 
- na obiektach klasy Engine uruchom System.out.prinlt(xxxxx.getVehicleData())
+ na obiektach klasy Vehicle uruchom System.out.prinln(xxxxx.getVehicleData())
+
+
 
  */
