@@ -40,4 +40,8 @@ public class Ex2_Program {
  *        - System.out.println(honda.getVehicleData());
  *        - System.out.println(bmw.getVehicleData());
  *
+ *
+ *        Zaktualizuje HP silika, który uzywasz dwukrotnie do stowrze 2 różnych obiektów klasy Vehicle
+ *        np. dieselEngine.horsePower = 400;
+ *        a następnie podnownie wyświetl dane o 3 pojazdach
  */
