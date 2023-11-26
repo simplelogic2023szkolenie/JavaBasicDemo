@@ -2,7 +2,26 @@ package Ch15_List;
 
 public class Ex5_Program {
     public static void main(String[] args) {
+        Ex5_Library library = new Ex5_Library();
 
+        Ex5_Book book1 = new Ex5_Book("1984", "George Orwell", 1949);
+        Ex5_Book book2 = new Ex5_Book("To Kill a Mockingbird", "Harper Lee", 1960);
+        Ex5_Book book3 = new Ex5_Book("The Great Gatsby", "F. Scott Fitzgerald", 1925);
+        Ex5_Book book4 = new Ex5_Book("One Hundred Years of Solitude", "Gabriel García Márquez", 1967);
+        Ex5_Book book5 = new Ex5_Book("A Brief History of Time", "Stephen Hawking", 1988);
+
+        library.addBook(book1);
+        library.addBook(book2);
+        library.addBook(book3);
+        library.addBook(book4);
+        library.addBook(book5);
+
+        // tutaj opcja dodania książki do razu do listy, bez wcześniego zapiswania do zmiennej
+        library.addBook(new Ex5_Book("Dziady", "Adam Mickiewicz", 1822));
+
+//        library.printBooksAfterDate(1930);
+
+        library.printAndSort();
     }
 }
 /**
