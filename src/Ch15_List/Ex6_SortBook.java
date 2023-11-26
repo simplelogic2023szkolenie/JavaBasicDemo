@@ -2,6 +2,7 @@ package Ch15_List;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Ex6_SortBook {
@@ -17,6 +18,8 @@ public class Ex6_SortBook {
         System.out.println(library);
 
         Collections.sort(library, (o1, o2) -> Integer.compare(o1.yearOfPublication, o2.yearOfPublication));
+//        Collections.sort(library, Comparator.comparingInt(((Ex5_Book)b)->b.yearOfPublication)
+//                .thenComparing(b->b.ti));
         System.out.println(library);
 
     }
