@@ -9,10 +9,16 @@ public class Program {
         pluto.bark();
         pluto.eat();
 
-
         tweety.introduce();
         tweety.fly();
         tweety.eat();
+
+        Eagle eagle = new Eagle("egle", 50, 5);
+
+        System.out.println(eagle.getClawsLegth());
+
+        Pinquin pinquin = new Pinquin("pingu", 50, 30);
+        System.out.println(pinquin.getSwimmingSpead());
     }
 }
 
@@ -37,19 +43,15 @@ public class Program {
  * public void fly() wypisującą text "I can fly!" dla canFly==true, a w przeciwnym razie "I can't fly"
  * <p>
  * W klasie Zoo z metodą main() stwórz  2 obiekty klasy Bird i uruchom na nich metody eat(), introduce(), oraz fly() oraz 2 obiekty klasy Dog i uruchom dla nich metody eat(), introduce() oraz bark()
-
- Utwórz klasę Eagle (wraz z konstruktorem) dziedziczącą po Bird zawierającą:
- Pole: int clawsLegth
- Konstruktor nie powinien przyjmować parametru canFly i w konstrukcji super() mieć 'zahardkodowaną' wartoś true
-
- Utwórz klasę Pinquin (wraz z konstruktorem) dziedziczącą po Bird zawierającą:
- Pole: int swimmingSpead
- Konstruktor nie powinien przyjmować parametru canFly i w konstrukcji super() mieć 'zahardkodowaną' wartoś false
-
-
- W klasie z metodą main() stwórz obiekt klasy Eagle oraz Pinquin  i uruchom na nich metody eat(), introduce(), fly() oraz wypisz clawsLegth dla orła i dla swimmingSpead pingwina
-
-
-
-
+ * <p>
+ * Utwórz klasę Eagle (wraz z konstruktorem) dziedziczącą po Bird zawierającą:
+ * Pole: int clawsLegth
+ * Konstruktor nie powinien przyjmować parametru canFly i w konstrukcji super() mieć 'zahardkodowaną' wartoś true
+ * <p>
+ * Utwórz klasę Pinquin (wraz z konstruktorem) dziedziczącą po Bird zawierającą:
+ * Pole: int swimmingSpead
+ * Konstruktor nie powinien przyjmować parametru canFly i w konstrukcji super() mieć 'zahardkodowaną' wartoś false
+ * <p>
+ * <p>
+ * W klasie z metodą main() stwórz obiekt klasy Eagle oraz Pinquin  i uruchom na nich metody eat(), introduce(), fly() oraz wypisz clawsLegth dla orła i dla swimmingSpead pingwina
  **/
