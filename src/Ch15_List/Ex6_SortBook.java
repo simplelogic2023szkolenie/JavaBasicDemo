@@ -23,10 +23,10 @@ public class Ex6_SortBook {
         System.out.println(library);
 
 
-        System.out.println("\nsortowanie po latach, a nastepnie po title");
-        Collections.sort(library, Comparator.comparingInt(o -> o.yearOfPublication)
-                .thenComparing(b -> b.title,));
-        System.out.println(library);
+//        System.out.println("\nsortowanie po latach, a nastepnie po title");
+//        Collections.sort(library, Comparator.comparingInt(o -> o.yearOfPublication)
+//                .thenComparing(b -> b.title));
+//        System.out.println(library);
 
     }
 }

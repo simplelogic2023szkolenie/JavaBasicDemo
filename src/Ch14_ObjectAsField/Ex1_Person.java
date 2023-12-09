@@ -15,6 +15,7 @@ public class Ex1_Person {
 
 
     public String getPersonData() {
-        return firstName + " " + lastName + " wiek: " + age + " address: " + address.getAddressData();
+        return firstName + " " + lastName + " wiek: " + age
+                + " address: " + address.getAddressData();
     }
 }
