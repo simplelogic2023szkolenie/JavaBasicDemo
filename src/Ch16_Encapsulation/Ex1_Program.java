@@ -6,9 +6,6 @@ public class Ex1_Program {
         ford.setHorsePower(120);
         ford.setColor("blue");
 
-
-        ford.horsePower = 400;
-
         Ex1_Car audi = new Ex1_Car();
         audi.setColor("red");
         audi.setHorsePower(200);
