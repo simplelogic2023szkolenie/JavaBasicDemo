@@ -28,6 +28,9 @@ public class Salary {
  *     pobrać od użytkownika int używając Scannera
  *     zwrócić liczbę pobraną od użytkownika
  *
+ *
+
+ *
  cz3
  * W klasie SalaryProgram i metodzie main()
  *
@@ -48,5 +51,13 @@ public class Salary {
  * do konstruktora utworzoną wcześniej listę pracowników
  * no obiektcie company uruchom metodę displaySalarySum() i sprawdz czy wydrukowała poprawną wartość
 
+ * public void displaySalarySum(){
+ *     int sum =0;
+ *     for(Employee employee : employees){
+ *         sum+= employee.getSalary();
+ *     }
+ *
+ *     System.out.println(sum)
+ * }
  *
  */
