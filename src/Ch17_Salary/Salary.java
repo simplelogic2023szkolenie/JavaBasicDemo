@@ -23,7 +23,7 @@ public class Salary {
  *     pobrać od użytkownika tekst używając Scannera
  *     zwrócić tekst pobrany od użytkownika
  *
- * - public String getNumberFromUser(String msg)
+ * - public int getNumberFromUser(String msg)
  *     powinna wydrukować do konsoli text parametru msg
  *     pobrać od użytkownika int używając Scannera
  *     zwrócić liczbę pobraną od użytkownika
