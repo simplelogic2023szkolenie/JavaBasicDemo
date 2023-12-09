@@ -1,7 +1,5 @@
 package Ch17_Salary.models;
 
-import java.util.Scanner;
-
 public class Employee {
     private String firstName;
     private String lastName;

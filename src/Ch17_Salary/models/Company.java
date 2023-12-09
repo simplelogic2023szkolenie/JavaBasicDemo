@@ -6,20 +6,22 @@ import java.util.List;
 public class Company {
     List<Employee> employees = new ArrayList<>();
 
-    public Company() {}
+    public Company() {
+    }
+
     public Company(List<Employee> employees) {
         this.employees = employees;
     }
 
-    public void displaySalarySum(){
+    public void displaySalarySum() {
         int sum = 0;
-        for (Employee employee : employees){
-            sum+= employee.getSalary();
+        for (Employee employee : employees) {
+            sum += employee.getSalary();
         }
         System.out.println("Company salaries sum: " + sum);
     }
 
-    public void addEmployee(Employee employee){
+    public void addEmployee(Employee employee) {
         employees.add(employee);
     }
 
