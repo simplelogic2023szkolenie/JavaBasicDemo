@@ -41,12 +41,12 @@ public class Salary {
 
  cz4
  * w klasie Company stwórz konstruktor, który zainicjalizuje listę przechowywanych pracowników
- * stwórz metoę displaySalarySum() która wyświetli sumę zarobków wszystkich pracowników
+ * stwórz metodę displaySalarySum() która wyświetli sumę zarobków wszystkich pracowników
  *
  *
  * w klasie SalaryProgram i metodzie main() stwórz obiekt klasy company i przekaż
  * do konstruktora utworzoną wcześniej listę pracowników
- * no obiektice company uruchom metodę displaySalarySum() i sprawdz czy wydrukowała poprawną wartość
+ * no obiektcie company uruchom metodę displaySalarySum() i sprawdz czy wydrukowała poprawną wartość
 
  *
  */
