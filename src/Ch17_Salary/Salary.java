@@ -1,6 +1,7 @@
 package Ch17_Salary;
 
 public class Salary {
+
 }
 
 /**

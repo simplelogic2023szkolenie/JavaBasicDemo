@@ -24,8 +24,8 @@ public class Ex6_SortBook {
 
 
         System.out.println("\nsortowanie po latach, a nastepnie po title");
-        Collections.sort(library, Comparator.comparingInt((Ex5_Book b) -> b.yearOfPublication)
-                .thenComparing(b -> b.title));
+        Collections.sort(library, Comparator.comparingInt(o -> o.yearOfPublication)
+                .thenComparing(b -> b.title,));
         System.out.println(library);
 
     }
