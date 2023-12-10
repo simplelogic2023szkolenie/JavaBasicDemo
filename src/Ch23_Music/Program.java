@@ -1,9 +1,26 @@
 package Ch23_Music;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Program {
     public static void main(String[] args) {
+        Pop pop = new Pop();
+        Techno techno = new Techno();
 
+        List<Music> musics = new ArrayList<>();
+        musics.add(pop);
+        musics.add(techno);
+
+        for (Music music : musics){
+            playMusic(music);
+        }
     }
+
+    public static void playMusic(Music music){
+        music.play();
+    }
+
 }
 
 
