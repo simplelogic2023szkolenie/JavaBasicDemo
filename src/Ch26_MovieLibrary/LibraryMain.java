@@ -57,6 +57,9 @@ public class LibraryMain {
                     int startYear = InputHelper.getPositiveNumber("Podaj rok startowy");
                     int endYear = InputHelper.getPositiveNumber("Podaj rok końcowy");
                     movieLibrary.printMovieTitlesBetweenYears(startYear, endYear);
+
+                case 2:
+                    movieLibrary.printRandomMovie();
                 case 4:
                     System.exit(0);
                 default:

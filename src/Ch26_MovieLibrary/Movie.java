@@ -8,6 +8,16 @@ public class Movie {
     private Director director;
     private List<Actor> actors;
 
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "title='" + title + '\'' +
+                ", yearOfProduction=" + yearOfProduction +
+                ", director=" + director +
+                ", actors=" + actors +
+                '}';
+    }
+
     public Movie(String title, int yearOfProduction, Director director, List<Actor> actors) {
         this.title = title;
         this.yearOfProduction = yearOfProduction;
