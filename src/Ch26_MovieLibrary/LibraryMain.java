@@ -1,8 +1,48 @@
 package Ch26_MovieLibrary;
 
+import java.util.Arrays;
+
 public class LibraryMain {
 
     public static void main(String[] args) {
+        Director frankDarabont = new Director("Frank", "Darabont");
+        Director davidFincher = new Director("David", "Fincher");
+        Director clintEastwood = new Director("Clint", "Eastwood");
+        Director stevenSoderbergh = new Director("Steven", "Soderbergh");
+
+        Actor timRobbins = new Actor("Tim", "Robbins");
+        Actor morganFreeman = new Actor("Morgan", "Freeman");
+        Actor bobGunton = new Actor("Bob", "Gunton");
+        Actor bradPitt = new Actor("Brad", "Pitt");
+        Actor gwynethPaltrow = new Actor("Gwyneth", "Paltrow");
+        Actor edwardNorton = new Actor("Edward", "Norton");
+        Actor georgeClooney = new Actor("George", "Clooney");
+        Actor juliaRoberts = new Actor("Julia", "Roberts");
+        Actor clintEastwoodActor = new Actor("Clint", "Eastwood");
+
+        MovieLibrary movieLibrary = new MovieLibrary();
+
+        Movie shawshankRedemption = new Movie(
+                "The Shawshank Redemption", 1994, frankDarabont,
+                Arrays.asList(timRobbins, morganFreeman, bobGunton));
+        Movie seven = new Movie(
+                "Seven", 1995, davidFincher,
+                Arrays.asList(morganFreeman, bradPitt, gwynethPaltrow));
+        Movie fightClub = new Movie(
+                "Fight Club", 1999, davidFincher,
+                Arrays.asList(bradPitt, edwardNorton));
+        Movie unforgiven = new Movie(
+                "Unforgiven", 1992, clintEastwood,
+                Arrays.asList(clintEastwoodActor, morganFreeman));
+        Movie oceansEleven = new Movie(
+                "Ocean's Eleven", 2001, stevenSoderbergh,
+                Arrays.asList(bradPitt, georgeClooney, juliaRoberts));
+
+        movieLibrary.addMovie(shawshankRedemption);
+        movieLibrary.addMovie(seven);
+        movieLibrary.addMovie(fightClub);
+        movieLibrary.addMovie(unforgiven);
+        movieLibrary.addMovie(oceansEleven);
 
     }
 }
