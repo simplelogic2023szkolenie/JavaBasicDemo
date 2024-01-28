@@ -1,6 +1,7 @@
 package Ch26_MovieLibrary;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class LibraryMain {
 
@@ -45,9 +46,37 @@ public class LibraryMain {
         movieLibrary.addMovie(oceansEleven);
 
 
+        Scanner scanner = new Scanner(System.in);
+
+        while (true){
+            printMenu();
+            int option = scanner.nextInt();
+
+            switch (option){
+                case 1:
+                    System.out.println("Podaj rok startowy");
+                    int startYear = scanner.nextInt();
+                    System.out.println("Podaj rok końcowy");
+                    int endYear = scanner.nextInt();
+                    movieLibrary.printMovieTitlesBetweenYears(startYear, endYear);
+                case 4:
+                    System.exit(0);
+
+            }
+        }
+
 
     }
+
+
+    public static void printMenu(){
+        System.out.println("1. Podaj dwie daty aby wyświetlić nazwy filmów nagranych pomiędzy tymi data");
+        System.out.println("2. Wyświetl wszystkie informacje o losowym filmie");
+        System.out.println("3. Podaj imię i nazwisko aktora aby wyświetlić nazwy filmów w jakich grał");
+    }
 }
+
+
 
 
 /**
