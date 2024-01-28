@@ -15,6 +15,10 @@ public class MovieLibrary {
     }
 
     public void printMovieTitlesBetweenYears(int startYear, int endYear){
-
+        for (Movie movie : movies){
+            if(movie.getYearOfProduction() >= startYear && movie.getYearOfProduction() <= endYear){
+                System.out.println(movie.getTitle());
+            }
+        }
     }
 }
