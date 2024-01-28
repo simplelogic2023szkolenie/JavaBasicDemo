@@ -1,5 +1,7 @@
 package Ch26_MovieLibrary;
 
+import Ch17_Salary.io.InputHelper;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -46,21 +48,19 @@ public class LibraryMain {
         movieLibrary.addMovie(oceansEleven);
 
 
-        Scanner scanner = new Scanner(System.in);
-
         while (true){
             printMenu();
-            int option = scanner.nextInt();
+            int option = InputHelper.getNumber("Podaj opcje");
 
             switch (option){
                 case 1:
-                    System.out.println("Podaj rok startowy");
-                    int startYear = scanner.nextInt();
-                    System.out.println("Podaj rok końcowy");
-                    int endYear = scanner.nextInt();
+                    int startYear = InputHelper.getPositiveNumber("Podaj rok startowy");
+                    int endYear = InputHelper.getPositiveNumber("Podaj rok końcowy");
                     movieLibrary.printMovieTitlesBetweenYears(startYear, endYear);
                 case 4:
                     System.exit(0);
+                default:
+                    System.out.println("Podałeś liczbę z poza zakresu 1-4");
 
             }
         }
@@ -73,6 +73,7 @@ public class LibraryMain {
         System.out.println("1. Podaj dwie daty aby wyświetlić nazwy filmów nagranych pomiędzy tymi data");
         System.out.println("2. Wyświetl wszystkie informacje o losowym filmie");
         System.out.println("3. Podaj imię i nazwisko aktora aby wyświetlić nazwy filmów w jakich grał");
+        System.out.println("4. Zakończ program");
     }
 }
 
