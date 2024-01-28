@@ -27,4 +27,15 @@ public class MovieLibrary {
             }
         }
     }
+    public void printMoviesWithActor(String firstName, String lastName){
+        for (Movie movie : movies){
+            for (Actor actor : movie.getActors()){
+                if(actor.getFirstName().equals(firstName) && actor.getLastName().equals(lastName)){
+                    System.out.println(movie.getTitle());
+                    break;
+                }
+            }
+        }
+
+    }
 }
