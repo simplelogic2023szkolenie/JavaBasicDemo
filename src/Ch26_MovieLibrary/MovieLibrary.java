@@ -14,6 +14,10 @@ public class MovieLibrary {
         movies.add(movie);
     }
 
+    public void printRandomMovie(){
+
+    }
+
     public void printMovieTitlesBetweenYears(int startYear, int endYear){
         for (Movie movie : movies){
             if(movie.getYearOfProduction() >= startYear && movie.getYearOfProduction() <= endYear){
